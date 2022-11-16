@@ -3,7 +3,7 @@ const messages = document.getElementById('messages');
 const form = document.getElementById('form');
 const input = document.getElementById('input');
 
-const ws = new WebSocket('ws://192.168.31.14:3000')
+const ws = new WebSocket('ws://**********:3000')
 
 function setStatus(value) {
     status.innerHTML = value;
